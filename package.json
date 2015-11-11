@@ -1,0 +1,16 @@
+{
+  "name": "jadeMail",
+  "version": "0.1.0",
+  "description": "Templating experiment to aid HTML email production.",
+  "author": "Jonathan Herndon + Web Team",
+  "contact": "jherndon@jhu.edu",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "~0.15.0",
+    "grunt-contrib-sass": "~0.7.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-inline-css": "~0.1.5",
+    "grunt-marked": "^0.1.2"
+  }
+}

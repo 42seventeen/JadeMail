@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="en"><head><title>Page Title</title><style>/* Reset + General Styles -------------------------------------- */
+/* 			* {outline: 1px dotted #dfdfdf;}  /* Used for trouble shooting, delete anytime - Jonathan */
+/* Fix Apple contact links and hide the preheader */
+.applefix a {
+  color: #888888;
+  text-decoration: none;
+}
+
+span.preheader {
+  display: none;
+}
+
+body {
+  color: #000;
+  margin: 0;
+  padding: 10px;
+  background-color: #e9e9e9;
+  -webkit-text-size-adjust: none;
+  margin: 0px;
+}
+
+a {
+  color: #00AEEF;
+}
+
+img {
+  /* Take care of image borders */
+  border: 0;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+a img {
+  border: none;
+}
+
+table td {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.link {
+  color: #00AEEF;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.link:hover {
+  color: #4275A4;
+  border-bottom: 1px solid;
+}
+
+.rule {
+  border: solid #999999;
+  border-width: 1px 0 0 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0 0 5px;
+}
+
+/* Structure -------------------------------------- */
+#emailContainer {
+  border: 1px solid #cbcbcb;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+#emailContainer td {
+  padding: 10px;
+}
+
+td.header {
+  background-color: #00AEEF;
+  color: #ffffff;
+  padding: 0px;
+}
+
+td#headerLogo, td#tagline {
+  padding: 10px 15px;
+}
+
+td#headerLogo img {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+td#featuredImg {
+  margin-bottom: -10px;
+  padding: 0px;
+}
+
+#featuredImg {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  width: 300px;
+}
+
+td#messageBody {
+  padding: 30px 45px 0px 45px;
+}
+
+table#ButtonWrapper {
+  padding: 10px 0px 10px 0px;
+}
+
+td.rule {
+  font-size: 1px;
+  line-height: 1px;
+  padding: 0px !important;
+}
+
+table#footerWrapper {
+  padding: 10px 0px 0px 0px;
+  font-size: 100px;
+}
+
+td#footerLogo {
+  text-align: center;
+}
+
+td.footerText {
+  color: #999999;
+  font-size: 10px;
+  text-align: left;
+}
+
+td.footer a.link, td.footer span.link {
+  color: #999999;
+  border-bottom: 1px dotted;
+}
+
+/* Typography -------------------------------------- */
+td#tagline {
+  font-size: 14px;
+  color: #def6ff;
+  line-height: 20px;
+  text-align: right;
+}
+
+table#callout {
+  background-color: #00AEEF;
+  color: #ffffff;
+  text-align: center;
+  width: 85%;
+}
+
+table#callout span {
+  font-size: 28px;
+}
+
+H1, .h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+h2, .h2 {
+  color: #666666;
+  font-size: 22px;
+  padding: 10px 0px 20px;
+  margin: 0;
+}
+
+p, .p {
+  font-size: 17px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+}
+
+p.intro {
+  font-size: 18px;
+  color: #000000;
+}
+
+.p#cta {
+  font-size: 17px;
+  color: #000000;
+  line-height: 24px;
+  padding: 0px 0px 10px;
+}
+
+td.cta-link {
+  font-size: larger;
+}
+
+#centered {
+  text-align: center;
+}
+
+/* mobileButton Styles -------------------------------------- */
+td#mobileButton-lm, td#mobileButton-vc {
+  background-color: #00AEEF;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+span.BTN-Text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#mobileButton-lm a, #mobileButton-vc a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Responsive Styles ------------------------------------------ */
+@media only screen and (max-width: 631px) {
+  table#emailContainer {
+    width: 100% !important;
+  }
+
+  table#columnContainer {
+    width: 100% !important;
+  }
+
+  td.footer img {
+    max-width: 200px;
+    width: 100% !important;
+  }
+}
+/* /.@media max-width:631px */
+@media only screen and (max-width: 480px) {
+  #emailContainer {
+    border: 0px !important;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+  td#body {
+    padding: 15px 20px 0px 20px !important;
+  }
+
+  td#headerLogo {
+    text-align: left !important;
+    width: 100% !important;
+    padding: 5px 15px !important;
+  }
+
+  #headerLogo img {
+    max-width: 150px !important;
+  }
+
+  td#tagline {
+    display: none !important;
+  }
+
+  td.columnSingle {
+    display: block !important;
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  td#messageBody {
+    padding: 30px 25px 30px 25px !important;
+  }
+
+  td.footer img {
+    max-width: 200px !important;
+    width: 100% !important;
+  }
+
+  td.footerText {
+    text-align: center !important;
+  }
+
+  h1, .h1 {
+    font-size: 28px !important;
+  }
+
+  h2, .h2 {
+    font-size: 18px !important;
+  }
+
+  table.ButtonWrapper {
+    padding: 0px 0px 10px 0px !important;
+  }
+
+  .p#cta {
+    font-size: 14px !important;
+    line-height: 16px;
+  }
+
+  td.cta-link {
+    font-size: medium !important;
+  }
+
+  table#footerWrapper {
+    padding: 10px 0px 0px 0px !important;
+  }
+
+  td#mobileButton-lm, td#mobileButton-vc {
+    padding: 10px;
+    margin-bottom: 10px !important;
+  }
+
+  #mobileButton-lm a, #mobileButton-vc a {
+    display: block;
+    padding: 10px !important;
+  }
+
+  td.spaceTd {
+    width: 0px !important;
+    display: none !important;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .img.signed {
+    width: 70% !important;
+    height: auto !important;
+  }
+}
+/* /.@media max-width:460px */
+
+/*# sourceMappingURL=coursera-styles.css.map */
+</style></head><body bgcolor="#e9e9e9"><!-- Preheader ==================================================== -->
+  
+<span class="preheader">Save $1,020 on any for-credit online course the Johns Hopkins Bloomberg School of Public Health.</span>  
+
+
+<!-- emailContainer table ==================================================== -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" id="emailContainer">
+ 
+ 	<tr>
+		<td class="header">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="columnContainer">
+    	<tr>
+    		<td valign="middle" class="columnSingle" id="headerLogo">
+      	  <a href="http://www.jhsph.edu/"><img src="https://gallery.mailchimp.com/0a43ad874dbe00d8f0545cfef/images/ab4d5780-2a95-4d4c-9134-eaba5f1542be.png" alt="Johns Hopkins Bloomberg School of Public Health" width="200" /></a>	
+        </td>
+        <td valign="middle" class="columnSingle" width="50%" id="tagline">
+          <span>Protecting&nbsp;Health, Saving&nbsp;Lives <em>&mdash;&nbsp;Millions&nbsp;at&nbsp;a&nbsp;Time</em></span>
+        </td>
+    	</tr>
+    </table>
+    </td>                                                                                                                     
+	</tr><tr><td align="center" valign="top" id="featuredImg"><a href="http://www.jhsph.edu/savings-for-verified-certificate-earners/index.html"><img src="https://gallery.mailchimp.com/0a43ad874dbe00d8f0545cfef/images/be249793-e3af-4b0a-8ac9-06b3c53ae295.png" alt="JHSPH Student" width="600" class="featuredImg"/></a></td></tr><tr><td id="messageBody" valign="top"><h1 class="h1">Noteworthy News from the Bloomberg School</h1><p class="p intro">Who knew that listening to a mother-in-law&rsquo;s advice was the answer to spreading the word about nutrition in Nepal? The Center for Communications Programs staff found out it&rsquo;s true!   </p><p class="p">We thought we’d share this intriguing story with you and more noteworthy public health insights featured in the digital version of our award-winning magazine—the Johns Hopkins Public Health Magazine. </p><h2 class="h2"><a href="http://magazine.jhsph.edu/2015/fall">Read Fall Edition of <em><Jonhns>Hopkins Public Health &rarr;</Jonhns></em></a></h2><p class="p"> <strong><a href="http://www.jhsph.edu/savings-for-verified-certificate-earners/index.html">Get $1,020 tuition savings &rarr;</a></strong></p><p class="p"><strong><a href="https://courseplus.jhu.edu/core/index.cfm/go/home.onlinecourses">View Online Courses &rarr;</a></strong></p></td></tr><!-- Footer ==================================================== -->
+
+	<tr>
+		<td class="footer">
+		<table border="0" cellpadding="0" cellspacing="0" class="columnContainer" id="footerWrapper" width="100%">
+    	<tr>
+    		<td valign="top" class="columnSingle" id="footerLogo" width="30%">
+      		<table border="0" width="100%" cellpadding="0" cellspacing="0">
+            	<tr>
+            		<td>
+           		  		<a href="http://www.jhsph.edu/"><img src="https://gallery.mailchimp.com/0a43ad874dbe00d8f0545cfef/images/7d00f553-a7ef-41d0-9652-a011577634e5.png" alt="Johns Hopkins Bloomberg School of Public Health" width="200" /></a>	
+            		</td>
+            	</tr>
+      		</table>	
+        </td>
+        <td valign="top" class="columnSingle" width="70%">
+          <table border="0" width="100%"  cellpadding="0" cellspacing="0">
+          	<tr>
+              <td align="center" valign="middle" class="footerText">
+              <strong>Johns Hopkins Bloomberg School&nbsp;of&nbsp;Public&nbsp;Health</strong><br />
+              615 N. Wolfe Street, Baltimore, MD 21205<br /><br />
+      
+              <!-- MailChimp -->
+        			Is this email not displaying correctly? <a href="*|ARCHIVE|*" target="_blank" class="link"><span class="link">View&nbsp;it&nbsp;in&nbsp;your&nbsp;browser</span></a><br/><br/>
+        			<a href="*|UNSUB|*" class="link"><span class="link"
+          			>unsubscribe from this list</span></a> |	<a href="*|UPDATE_PROFILE|*" class="link"><span class="link">update subscription preferences</span></a>&nbsp; 
+              </td>
+          	</tr>
+          </table>
+        </td>
+    	</tr>
+    </table>
+    </td>
+	</tr>
+</table><!-- /.emailContainer -->
+</body>
+</body></html>

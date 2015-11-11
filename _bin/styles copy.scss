@@ -1,0 +1,47 @@
+body, .body-table {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #F3F3F3;
+}
+
+#holder {
+  border: 1px solid #dfdfdf;
+}
+
+a {
+  color: #437ea4;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1, .h1 {
+  font-size: 28px;
+}
+
+h2, .h2 {
+  font-size: 20px;
+}
+
+p, .p, ul  {
+ font-family: "Helvetica", "Arial", sans-serif;
+ font-size: 16px;
+  color: #444444;
+}
+
+p strong, .p strong, ul li strong  {
+  color: #000000;
+}
+
+p a, .p a, ul li a, p a, p a span, .p a span, ul li a span, p a span   {
+  color: #437ea4;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+p.intro, .p.intro, ul.intro  {
+ font-size: 20px;
+ font-weight: bold;
+}
